@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <item
+        android:id="@+id/countryWiki"
+        android:title="Open Country Wikipedia" />
+
+    <item
+        android:id="@+id/countryMaps"
+        android:title="Open Country in Google Maps"/>
+</menu>

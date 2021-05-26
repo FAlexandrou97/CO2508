@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".ItemTrack">
+
+    <TextView
+        android:id="@+id/trackRank"
+        android:textSize="16sp"
+        android:layout_marginStart="8dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="14dp"
+        android:layout_marginBottom="8dp"/>
+
+    <TextView
+        android:id="@+id/trackName"
+        android:textSize="18sp"
+        android:lines="1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="10dp"
+        android:layout_marginTop="8dp"
+        android:layout_marginBottom="4dp"
+        android:layout_toEndOf="@id/trackRank"/>
+
+    <TextView
+        android:id="@+id/artistName"
+        android:textSize="12sp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAlignment="center"
+        android:layout_marginStart="10dp"
+        android:layout_marginBottom="8dp"
+        android:layout_toEndOf="@id/trackRank"
+        android:layout_below="@id/trackName"/>
+
+    <ToggleButton
+        android:id="@+id/button_track_liked"
+        android:layout_width="30dp"
+        android:layout_height="30dp"
+        android:background="@drawable/ic_thumb_up_black_24dp"
+        android:checked="false"
+        android:text=""
+        android:textOff=""
+        android:textOn=""
+        android:focusable="false"
+        android:layout_alignParentEnd="true"
+        android:layout_marginEnd="24dp"
+        android:layout_marginTop="16dp"/>
+
+</RelativeLayout>
